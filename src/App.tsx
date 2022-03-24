@@ -14,23 +14,23 @@ function App() {
   return (
 
     <Router>
-      <Navbar />
+      <Navbar/>
       <Switch>
         <div style={{ minHeight: '100vh' }}>
           <Route exact path='/'>
-            <Login />
+            <Login/>
           </Route>
 
           <Route path='/login'>
-            <Login />
+            <Login/>
           </Route>
 
           <Route path='/home'>
-            <Home />
+            <Home/>
           </Route>
         </div>
       </Switch>
-      <Footer />
+      <Footer/>
     </Router>
 
   );
