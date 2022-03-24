@@ -4,16 +4,17 @@ import { AppBar, Toolbar, Typography, Box } from '@material-ui/core';
 function Navbar() {
     return (
         <>
-            <AppBar position="static">
-                <Toolbar variant="dense">
+            <AppBar position="static" >
+                <Toolbar variant="dense" >
                     <Box style={{ cursor: "pointer" }} >
                         <Typography variant="h5" color="inherit">
                             BlogPessoal
                         </Typography>
                     </Box>
 
-                    <Box display="flex" justifyContent="start">
+                    <Box display="flex"  >
                         <Box mx={1} style={{ cursor: "pointer" }}>
+
                             <Typography variant="h6" color="inherit">
                                 Home
                             </Typography>
@@ -33,8 +34,8 @@ function Navbar() {
                                 Cadastrar tema
                             </Typography>
                         </Box>
-                        <Box mx={1} style={{ cursor: "pointer" }}>
-                            <Typography variant="h6" color="inherit">
+                        <Box mx={1} style={{ cursor: "pointer" }} className='logout'>
+                            <Typography variant="h6" color="inherit" >
                                 Logout
                             </Typography>
                         </Box>
