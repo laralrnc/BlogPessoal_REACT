@@ -5,3 +5,20 @@
 .text-decorator-none{
     text-decoration: none;
 }
+.navbar:hover {
+    color: #090e01;
+}
+.navbar{
+    padding: 0 50px;
+    font-size: large;
+    font-weight: 800;
+    color: #d2d8cb;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 3px;    
+}
+.MuiAppBar-colorPrimary {
+    background: #adbea8 !important;
+}
+.teste{
+    justify-content: center;
+}
