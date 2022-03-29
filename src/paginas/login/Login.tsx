@@ -2,7 +2,7 @@ import React, { useState, ChangeEvent, useEffect } from 'react';
 import { Grid, Box, Typography, TextField, Button } from '@material-ui/core';
 import { Link, useHistory } from 'react-router-dom';
 import useLocalStorage from 'react-use-localstorage';
-import { api } from '../../services/Service';
+import { login } from '../../services/Service';
 import './Login.css';
 import UserLogin from '../../models/UserLogin';
 
@@ -40,8 +40,7 @@ function Login() {
         //impede que o botão atualize a tela
         e.preventDefault();
         try {
-            const resposta = await api.post(`/usuarios/logar`, userLogin)
-            setToken(resposta.data.token)
+            await login(`/usuarios/logar`, userLogin, setToken)
             alert('usuário logado!');
         } catch (error) {
             alert('dados incorretor. erro ao logar!');
