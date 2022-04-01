@@ -11,13 +11,14 @@
 .navbar{
     padding: 0 50px;
     font-size: large;
-    font-weight: 800;
+    font-weight: 1000;
     color: #d2d8cb;
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;
+
 }
 .MuiAppBar-colorPrimary {
-    background: #adbea8 !important;
+    background-color: rgba(0, 119, 255, 0.473) !important;
 }
 .teste{
     justify-content: center;

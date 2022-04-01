@@ -16,7 +16,7 @@ function Navbar() {
     }
     return (
         <>
-            <AppBar position="static" className="MuiAppBar-colorPrimary " >
+            <AppBar position="static"  className="MuiAppBar-colorPrimary " >
                 <Toolbar variant="dense" className='tamanho MuiAppBar-colorPrimary teste' >
                     <Box className='cursor navbar'>
                         <Typography variant="h5" color="inherit">

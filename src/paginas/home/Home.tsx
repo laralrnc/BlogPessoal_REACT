@@ -3,7 +3,7 @@ import { Grid, Paper, Box, Button, Typography } from '@material-ui/core';
 import './Home.css';
 import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
 import ModalPostagem from '../../components/postagens/modalPostagem/modalPostagem';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import useLocalStorage from 'react-use-localstorage';
 
 function Home() {
@@ -31,7 +31,10 @@ function Home() {
                         <Box marginRight={1}>
                             <ModalPostagem />
                         </Box>
-                        <Button variant="outlined" className='botao'>Ver Postagens</Button>
+                        <Link to = "/posts" className= "text-decorator-none">
+                            <Button variant="outlined" className='botao'>Ver Postagens</Button>
+                        </Link>
+                        
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
