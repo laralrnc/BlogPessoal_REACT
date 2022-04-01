@@ -23,8 +23,8 @@ export const busca = async (url: any, setDado: any, header: any) => {
 }
 
 //serve para buscar pelo id kkkkkk
-export const buscaId = async (url: any, setDado: any, header: any) => {
-    const resposta = await api.get(url, header)
+export const buscaId = async(url: any,setDado: any, header: any) => { 
+    const resposta = await api.get(url,header)
     setDado(resposta.data)
 }
 
