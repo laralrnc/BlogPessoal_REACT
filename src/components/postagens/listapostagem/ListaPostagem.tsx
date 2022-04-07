@@ -8,6 +8,8 @@ import { useHistory } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/token/tokensReducer';
 import { toast } from 'react-toastify';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import IconButton from '@material-ui/core/IconButton';
 
 function ListaPostagem() {
   const [posts, setPosts] = useState<Postagem[]>([])
@@ -68,6 +70,9 @@ function ListaPostagem() {
                   {post.tema?.descricao}
                 </Typography>
               </CardContent>
+              <IconButton aria-label="add to favorites">
+                <FavoriteIcon />
+              </IconButton>
               <CardActions>
                 <Box display="flex" justifyContent="center" mb={1.5}>
 
