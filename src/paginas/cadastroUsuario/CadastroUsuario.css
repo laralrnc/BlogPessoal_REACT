@@ -1,5 +1,5 @@
 .imagem2{
-    background-image: url(https://i.imgur.com/AK6ii8y.jpg);
+    background-image: url(https://i.imgur.com/ebbT4p0.png);
     background-repeat: "no-repeat";
     width: 100vh;
     min-height: 100vh;
@@ -7,8 +7,17 @@
     background-position: center;
 }
 .textos2{
-        font-weight: bold !important;
+    font-weight: bold !important;
+    color: #e73a5e !important;
 }
 .btnCancelar{
     margin-right: 20px !important;
+    color: #fff;
+    background-color: #e73a5e !important;
+}
+
+.btnCadastrar{
+    margin-right: 20px !important;
+    color: #fff;
+    background-color: #00a650 !important;
 }

@@ -4,3 +4,17 @@
 .margin{
     margin-right: 20px !important;
 }
+.testando{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 2%;
+}
+.botaoFINALZIAR {
+    color: #fff;
+    background-color: #00a650 !important;
+}
+.botaoCANCELAR {
+    color: #fff;
+    background-color: #e2ddde !important;
+}

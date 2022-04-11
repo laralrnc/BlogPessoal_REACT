@@ -1,29 +1,34 @@
-.titulo{
+.titulo {
     color: blue;
     text-align: center;
 }
-.img{
+
+.img {
     width: 100px;
     height: 100px;
     display: block;
     margin: 0 auto;
 }
-.caixa{
-    background-color: #adbea8;
+
+.caixa {
+    background-color: #c6f0e1;
 }
-.titulo{
+
+.titulo {
     color: white !important;
     font-weight: bold !important;
- }
- .botao{
-    border-color: white !important;
-    background-color: #3F51B5 !important;
-    color: white !important;
- }
+}
 
- .postagens{
+.botao {
+    border-color: #00a650 !important;
+    background-color: #00a650 !important;
+    color: white !important;
+}
+
+.postagens {
     background-color: white !important;
- }
- .text-decorator-none{
+}
+
+.text-decorator-none {
     text-decoration: none;
 }

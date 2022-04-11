@@ -171,11 +171,11 @@ function CadastroPost() {
     }
 
     return (
-        <Container maxWidth="sm" className="topo">
+        <Container maxWidth="sm" className="topo testando">
             <form onSubmit={onSubmit}>
                 <Typography variant="h3" color="textSecondary" component="h1" align="center" >Formulário de cadastro postagem</Typography>
-                <TextField value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="titulo" variant="outlined" name="titulo" margin="normal" fullWidth />
-                <TextField value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="texto" name="texto" variant="outlined" margin="normal" fullWidth />
+                <TextField value={postagem.titulo} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="titulo" label="Título" variant="outlined" name="titulo" margin="normal" placeholder="Digite o título da sua publicação" fullWidth />
+                <TextField value={postagem.texto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedPostagem(e)} id="texto" label="Texto" name="texto" variant="outlined" margin="normal" placeholder="Mínimo: 10. Máximo: 1000" fullWidth />
 
                 <FormControl >
                     <InputLabel id="demo-simple-select-helper-label">Tema </InputLabel>
@@ -197,7 +197,7 @@ function CadastroPost() {
 
                 </FormControl>
                 <Grid container alignItems='center' >
-                    <Button type="submit" variant="contained" color="primary" className='margin'>
+                    <Button type="submit" variant="contained" color="primary" className='margin botaoFINALZIAR'>
                         Finalizar
                     </Button>
                     <Link to='/posts' className='text-decorator-none'>

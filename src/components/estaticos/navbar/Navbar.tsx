@@ -39,7 +39,7 @@ function Navbar() {
             <Toolbar variant="dense" className='tamanho MuiAppBar-colorPrimary teste' >
                 <Box className='cursor navbar'>
                     <Typography variant="h5" color="inherit">
-                        BlogPessoal
+                    <img className="Logo" src="https://i.imgur.com/rXmjB99.png" alt="LogoTipo" width="48px" height="48px" />
                     </Typography>
                 </Box>
 
@@ -80,7 +80,7 @@ function Navbar() {
 
                     <Box mx={1} className='cursor navbar' onClick={goLogout}>
                         <Typography variant="h6" color="inherit" >
-                            Logout
+                            Sair
                         </Typography>
                     </Box>
 

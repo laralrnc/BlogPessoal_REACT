@@ -1,3 +1,11 @@
 .text-decorator-none{
     text-decoration: none;
 }
+.botaoUPTADE {
+    color: #fff;
+    background-color: #00a650 !important;
+}
+.botaoDELETE {
+    color: #fff;
+    background-color: #e73a5e !important;
+}

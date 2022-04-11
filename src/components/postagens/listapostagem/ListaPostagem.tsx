@@ -54,7 +54,7 @@ function ListaPostagem() {
     <>
       {
         posts.map(post => (
-          <Box m={2} >
+          <Box m={2} className="background">
             <Card variant="outlined">
               <CardContent>
                 <Typography color="textSecondary" gutterBottom>
@@ -74,14 +74,14 @@ function ListaPostagem() {
                 <Box display="flex" justifyContent="center" mb={1.5}>
                   <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                     <Box mx={1}>
-                      <Button variant="contained" className="marginLeft" size='small' color="primary" >
+                      <Button variant="contained" className="marginLeft botaoUPTADE" size='small' color="primary" >
                         atualizar
                       </Button>
                     </Box>
                   </Link>
-                  <Link to={`/deletarPostagem/${post.id}`} className="text-decorator-none">
+                  <Link to={`/deletarPostagem/${post.id}`} className="text-decorator-none ">
                     <Box mx={1}>
-                      <Button variant="contained" size='small' color="secondary">
+                      <Button variant="contained" size='small' color="secondary" className="botaoDELETE"> 
                         deletar
                       </Button>
                     </Box>

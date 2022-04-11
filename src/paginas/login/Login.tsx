@@ -80,7 +80,7 @@ function Login() {
                         <TextField value={userLogin.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updateModel(e)} id='usuario' label='Usuário' variant='outlined' name='usuario' margin='normal' placeholder='EX: exemplo@exemplo.com' fullWidth />
                         <TextField value={userLogin.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updateModel(e)} id='senha' label='Senha' variant='outlined' name='senha' margin='normal' type='password' placeholder='Senha com no mínimo 8 caracteres' fullWidth />
                         <Box marginTop={2} textAlign='center'>
-                            <Button type='submit' variant='contained' color='primary'>
+                            <Button type='submit' variant='contained' color='primary' className="Login">
                                 Logar
                             </Button>
                         </Box>

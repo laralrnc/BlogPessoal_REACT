@@ -6,19 +6,19 @@
     text-decoration: none;
 }
 .navbar:hover {
-    color: #cae7ff
+    color: #c6f0e1
 }
 .navbar{
     padding: 0 50px;
     font-size: large;
     font-weight: 1000;
-    color: #d2d8cb;
+    color: #ffffff;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
 
 }
 .MuiAppBar-colorPrimary {
-    background-color: #6885ab !important;
+    background-color: #00aec8 !important;
 }
 .teste{
     justify-content: center;

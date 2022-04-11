@@ -36,9 +36,9 @@ function Home() {
 
             <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa'>
                 <Grid alignItems="center" item xs={6}>
-                    <Box paddingX={20}>
+                    <Box paddingX={20} className="teste">
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo' >Seja bem vindo(a)!</Typography>
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>expresse aqui os seus pensamentos e opiniões!</Typography>
+                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Publique suas dicas de filmes que podem ajudar os estudantes!!</Typography>
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
@@ -51,7 +51,7 @@ function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
-                    <img src="https://i.imgur.com/AK6ii8y.jpg" alt="" width="600px" height="600px" />
+                    <img src="https://i.imgur.com/SQ5Op7l.png" alt="" width="600px" height="600px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
                     <TabPostagem />
