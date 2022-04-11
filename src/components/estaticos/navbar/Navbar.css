@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 .navbar:hover {
-    color: #090e01;
+    color: #cae7ff
 }
 .navbar{
     padding: 0 50px;
@@ -18,7 +18,7 @@
 
 }
 .MuiAppBar-colorPrimary {
-    background-color: rgba(0, 119, 255, 0.473) !important;
+    background-color: #6885ab !important;
 }
 .teste{
     justify-content: center;

@@ -60,22 +60,18 @@ function ListaPostagem() {
                 <Typography color="textSecondary" gutterBottom>
                   Postagens
                 </Typography>
+                <Typography variant="body2" component="p">
+                  {post.tema?.descricao}
+                </Typography>
                 <Typography variant="h5" component="h2">
                   {post.titulo}
                 </Typography>
                 <Typography variant="body2" component="p">
                   {post.texto}
                 </Typography>
-                <Typography variant="body2" component="p">
-                  {post.tema?.descricao}
-                </Typography>
               </CardContent>
-              <IconButton aria-label="add to favorites">
-                <FavoriteIcon />
-              </IconButton>
               <CardActions>
                 <Box display="flex" justifyContent="center" mb={1.5}>
-
                   <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                     <Box mx={1}>
                       <Button variant="contained" className="marginLeft" size='small' color="primary" >
